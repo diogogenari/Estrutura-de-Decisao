@@ -1,0 +1,10 @@
+var ano = entrada do ano 
+var anoatualizado = ano /4 
+
+if(anoatualizado != 0){
+
+return println ("Esse ano não é bissexto");
+
+}else{
+  return println("Esse ano é bissexto");
+}
