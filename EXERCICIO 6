@@ -1,0 +1,32 @@
+namespace ExercicioSomarDigitos
+{
+    class Program
+   {
+  
+       static void Main(string[] args)
+       {
+            //Criação Das variaveis
+             int numero;
+             int digito;
+             int soma = 0;
+
+       //Mostrar uma messagem para o usuario
+       Console.write("Informe o Numero: ");
+       numero = Convert.ToInt32(Console.ReadLine());
+        
+
+          //Estrutura de Repetição
+          while (numero > 0)
+          {    
+               digito = numero % 10; // Ultimo Digito
+               soma = soma + digito;
+               numero = numero / 10;
+               
+
+          } 
+           Console.WriteLine("soma = " + soma);
+           Console.Readkey();
+
+       }
+   }
+}
